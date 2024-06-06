@@ -1,0 +1,33 @@
+/* ------------------------------------------------ Reset all styles -----------------*/
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: white;
+}
+li{
+    list-style: none; 
+}
+a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 15px;
+}
+
+/* ------------------------------------------------ hearder--------------*/
+
+.nav{
+    background-color: blue; 
+    padding: 15px; 
+    gap: 15px; 
+}
+ul{
+    display: flex; 
+    justify-content:flex-end; 
+    gap: 15px;
+}
+
